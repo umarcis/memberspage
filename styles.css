@@ -1,0 +1,151 @@
+.navbar-brand img {
+  width: 100px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.team-boxed {
+  color: #313437;
+  background-color: #eef4f7;
+}
+
+.team-boxed p {
+  color: #7d8285;
+}
+
+.team-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .team-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .people {
+  padding: 50px 0;
+}
+
+.icon-gray i:hover,
+.icon-gray svg:hover {
+  color: #34c6d3;
+}
+
+.team-boxed .item {
+  text-align: center;
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.team-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+  max-width: 160px;
+}
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #0f97d6f8;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
+}
+
+.navbar {
+  padding: 20px 85px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.vesco-top-nav {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 7px 85px !important;
+}
+
+.vesco-nav-wrapper {
+  padding: 20px 85px;
+}
+
+.navbar-nav {
+  float: right;
+  padding: 10px 0;
+}
+
+.navbar-nav > li > a {
+  color: #000000;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background: none;
+  color: #34c6d3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-toggler {
+  margin: 10px 0;
+  padding: 0.25rem 0.7rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000 !important;
+  border-radius: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #34c6d3;
+}
